@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
 
-class TextPage extends StatelessWidget {
+class TextPage extends StatefulWidget {
 
+  @override
+  createState() => new _TextPageState();
+}
+
+class _TextPageState extends State<TextPage> {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
